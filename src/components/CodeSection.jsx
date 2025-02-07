@@ -6,7 +6,7 @@ import { checklistItems } from '../constants'
 
 const CodeSection = () => {
   return (
-    <div className='w-[80%] mx-auto text-center'>
+    <div className='w-[80%] mx-auto text-center' id='workflow'>
       <h1 className='text-3xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 lg:mb-10 md:mb-6 tracking-wide' >Accelerate your <HighlightedText >coding workflow</HighlightedText> </h1>
       <div className='md:flex md:flex-row flex flex-col  md:gap-4'>
         <div className='md:w-1/2 w-full flex items-center p-2'>
